@@ -11,13 +11,11 @@ class App extends Component {
   render() {
     return (
       <Router>
-          <React.Fragment>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/Experience" component={Experience} />
               <Route exact path="/Projects" component={Projects} />
             </Switch>
-           </React.Fragment>
         </Router>
     );
   }
