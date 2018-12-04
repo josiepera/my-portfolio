@@ -13,16 +13,7 @@ class Home extends Component {
             <p>Web Developer</p>
           </div>
         </div>
-        <div className="head">
-          <h1> Second Page</h1>
-        </div>
-        <div className="divider">
-          <h1>Contact Info</h1>
-        </div>
-        <div className="contact">
-          <h1>Contact Info</h1>
-        </div>
-      </div>
+    </div>
 
 
       )
