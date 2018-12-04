@@ -6,10 +6,12 @@ class Home extends Component {
   render() {
     return(
       <div>
+        <Header/>
         <div className="home">
-          <Header/>
-          <h1>Josie Peralta</h1>
-          <p>Web Developer</p>
+          <div className="title">
+            <h1>Josie Peralta</h1>
+            <p>Web Developer</p>
+          </div>
         </div>
         <div className="head">
           <h1> Second Page</h1>

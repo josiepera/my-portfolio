@@ -15,7 +15,7 @@ main {
 nav {
   font-family: 'Orbitron', sans-serif;
 	width: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: #505050;
 	/* background: #4568DC;  /* fallback for old browsers */
   /* background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */ */
   /* background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */ */
@@ -62,13 +62,21 @@ nav > ul li a::before {
 	width: 100%;
 	}
 
-h1{
-  margin-top: 70px;
+.title h1{
+  /* margin-top: 70px; */
+	color: white;
+	font-size: 70px;
+	text-align: center;
+}
+.title p{
+	color: white;
+	font-size: 35px;
+	text-align: center;
 }
 
 .home{
   font-family: 'Orbitron', sans-serif;
-  background: url('https://cdn.hipwallpaper.com/i/75/68/8BWvUj.jpg') no-repeat center center fixed;
+  background: url('http://numarketing.co.uk/wp-content/uploads/2014/06/Website-Design-Background.png') no-repeat center center fixed;
    -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -76,8 +84,13 @@ h1{
   height: 100vh;
   background-size: cover;
   background-attachment: fixed;
+	display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.title{
 
+}
 
 .head{
   height:100vh;
