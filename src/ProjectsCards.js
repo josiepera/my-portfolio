@@ -33,7 +33,7 @@ class ProjectsCards extends Component {
     <div className="bottom">
     <div className="airbnb-card">
       <Card>
-        <CardImg top width="30%" src="https://i.imgur.com/wLuhj2B.png" alt="Card image cap" />
+        <CardImg top width="50%" src="https://i.imgur.com/wLuhj2B.png" alt="Card image cap" />
         <CardBody>
           <CardTitle>AirBnB</CardTitle>
           <CardSubtitle>Group Project built with 3 other Developers</CardSubtitle>
@@ -43,7 +43,7 @@ class ProjectsCards extends Component {
     </div>
     <div className="rep-card">
       <Card>
-        <CardImg top width="30%" src="https://i.imgur.com/pKYIAA3.png" alt="Card image cap" />
+        <CardImg top width="60%" src="https://i.imgur.com/pKYIAA3.png" alt="Card image cap" />
         <CardBody>
           <CardTitle>Who Reps Me</CardTitle>
           <CardSubtitle>JavaScript Game that brings the nostalgia</CardSubtitle>
