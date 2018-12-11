@@ -13,8 +13,8 @@ function Header() {
           <span></span>
           <ul id="menu">
             <li><Link to='/'>Home</Link></li>
-            <li><Link to='/Projects'>Projects</Link></li>
-            <li><Link to='/about'>About Me</Link></li>
+            <li><Link to='/portfolio'>Portfolio</Link></li>
+            <li><Link to='/summary'>Summary</Link></li>
           </ul>
         </div>
         </nav>

@@ -47,7 +47,7 @@ class ProjectsCards extends Component {
         <CardBody>
           <CardTitle>Who Reps Me</CardTitle>
           <CardSubtitle>JavaScript Game that brings the nostalgia</CardSubtitle>
-          <a href="https://josiepera.github.io/duck_hunt/"><button>Start Booking!</button></a>
+          <a href="https://josiepera.github.io/duck_hunt/"><button>Check it out!</button></a>
         </CardBody>
       </Card>
     </div>
