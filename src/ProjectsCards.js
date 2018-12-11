@@ -43,7 +43,7 @@ class ProjectsCards extends Component {
             <img className="card-img" src="https://i.imgur.com/pKYIAA3.png" alt="Card image cap" />
               <div className="content">
                 <p id="card-title">Who Reps Me</p>
-                <p>JavaScript Game that brings the nostalgia</p>
+                <p>Application which users can find who the representatives of their respective states are and their social media profiles.</p>
                 <a href="https://josiepera.github.io/duck_hunt/" target="_blank"><button>Check it out!</button></a>
               </div>
           </div>
