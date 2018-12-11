@@ -13,7 +13,7 @@ class ProjectsCards extends Component {
               <div className="content">
                 <p id="card-title">Hurdles</p>
                 <p>Game written in Vanilla JS where the user has to clear hurdles by pressing the up keyboard up</p>
-                <a href="https://josiepera.github.io/hurdles/"><button>Go to Game!</button></a>
+                <a href="https://josiepera.github.io/hurdles/" target="_blank"><button>Go to Game!</button></a>
               </div>
         </div>
 
@@ -23,7 +23,7 @@ class ProjectsCards extends Component {
               <div className="content">
                 <p id="card-title">Mellow Home</p>
                 <p>App designed by UX and built by Josie Peralta</p>
-                <a href="https://mellow-home.herokuapp.com/"><button>Go to Mellow Home</button></a>
+                <a href="https://mellow-home.herokuapp.com/" target="_blank"><button>Go to Mellow Home</button></a>
               </div>
         </div>
         </div>
@@ -35,7 +35,7 @@ class ProjectsCards extends Component {
               <div className="content">
                 <p id="card-title">AirBnB</p>
                 <p>Recreated the AirBnB with 3 other developers. For technologies we used React, Reactstrap, PostgreSQL, and Node.js</p>
-                <a href="https://mad-donkey.herokuapp.com/"><button>Start Booking!</button></a>
+                <a href="https://mad-donkey.herokuapp.com/" target="_blank"><button>Start Booking!</button></a>
               </div>
           </div>
 
@@ -44,7 +44,7 @@ class ProjectsCards extends Component {
               <div className="content">
                 <p id="card-title">Who Reps Me</p>
                 <p>JavaScript Game that brings the nostalgia</p>
-                <a href="https://josiepera.github.io/duck_hunt/"><button>Check it out!</button></a>
+                <a href="https://josiepera.github.io/duck_hunt/" target="_blank"><button>Check it out!</button></a>
               </div>
           </div>
 
