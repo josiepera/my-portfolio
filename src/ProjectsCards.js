@@ -8,36 +8,46 @@ class ProjectsCards extends Component {
       <div className="cards">
         <div className="top">
 
-        <div className="hurdles-card">
+        <div className="card" id="hurdles-card">
             <img className="card-img" src="https://res.cloudinary.com/jperalta/image/upload/v1543948305/Screen_Shot_2018-12-04_at_1.31.21_PM.png" alt="Card image cap" />
-              <p>Hurdles</p>
-              <p>Javascript Game</p>
-              <a href="https://josiepera.github.io/hurdles/"><button>Go to Game!</button></a>
+              <div className="content">
+                <p id="card-title">Hurdles</p>
+                <p>Game written in Vanilla JS where the user has to clear hurdles by pressing the up keyboard up</p>
+                <a href="https://josiepera.github.io/hurdles/"><button>Go to Game!</button></a>
+              </div>
         </div>
 
-        <div className="mellow-card">
+        <div className="card" id="mellow-card">
             <img className="card-img" src="https://res.cloudinary.com/jperalta/image/upload/v1543978743/Screen_Shot_2018-12-04_at_9.58.28_PM.png" alt="Card image cap" />
-              <p>Mellow Home</p>
-              <p>App designed by UX and built by Josie Peralta</p>
-              <a href="https://mellow-home.herokuapp.com/"><button>Go to Mellow Home</button></a>
+              <div className="overlay"></div>
+              <div className="content">
+                <p id="card-title">Mellow Home</p>
+                <p>App designed by UX and built by Josie Peralta</p>
+                <a href="https://mellow-home.herokuapp.com/"><button>Go to Mellow Home</button></a>
+              </div>
         </div>
         </div>
 
         <div className="bottom">
-        <div className="airbnb-card">
+
+          <div className="card" id="airbnb-card">
             <img className="card-img" src="https://i.imgur.com/wLuhj2B.png" alt="Card image cap" />
-              <p>AirBnB</p>
-              <p>Group Project built with 3 other Developers</p>
-              <a href="https://mad-donkey.herokuapp.com/"><button>Start Booking!</button></a>
-        </div>
+              <div className="content">
+                <p id="card-title">AirBnB</p>
+                <p>Recreated the AirBnB with 3 other developers. For technologies we used React, Reactstrap, PostgreSQL, and Node.js</p>
+                <a href="https://mad-donkey.herokuapp.com/"><button>Start Booking!</button></a>
+              </div>
+          </div>
 
-        <div className="rep-card">
-
+          <div className="card" id="rep-card">
             <img className="card-img" src="https://i.imgur.com/pKYIAA3.png" alt="Card image cap" />
-              <p>Who Reps Me</p>
-              <p>JavaScript Game that brings the nostalgia</p>
-              <a href="https://josiepera.github.io/duck_hunt/"><button>Check it out!</button></a>
-        </div>
+              <div className="content">
+                <p id="card-title">Who Reps Me</p>
+                <p>JavaScript Game that brings the nostalgia</p>
+                <a href="https://josiepera.github.io/duck_hunt/"><button>Check it out!</button></a>
+              </div>
+          </div>
+
         </div>
 
       </div>
