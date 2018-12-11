@@ -291,3 +291,7 @@ nav > ul li a::before {
 	display:flex;
 	flex-direction: column;
 }
+
+.card-img{
+	max-width:50%;
+}
