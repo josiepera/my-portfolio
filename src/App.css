@@ -6,7 +6,8 @@ body, html {
 			font-family: 'Lato', sans-serif;
       height: 100vh;
       background: #fafafa;
-			color: rgb(51,51,51);
+			/* color: rgb(51,51,51); */
+			color: #4A4E69;
 		}
 main {
 	width: 100%;
@@ -39,7 +40,7 @@ a{
 	text-decoration: none !important;
 }
 a:visited{
-	color:black;
+	color:black !important;
 }
 
 nav > ul li a::before {
@@ -248,6 +249,7 @@ nav > ul li a::before {
 .experience h1{
 	display: flex;
 	justify-content: center;
+	font-size: 60px;
 	/* margin-top: 200px; */
 }
 .experience p{
@@ -260,7 +262,7 @@ nav > ul li a::before {
 	/* height: 100vh; */
 	display: flex;
 	flex-direction: column;
-	text-align: center;
+	/* text-align: center; */
 	align-items: center;
 	justify-content: center;
 }
@@ -272,16 +274,19 @@ nav > ul li a::before {
   text-align: center;
   align-items: center;
 	margin-top: 70px;
+	font-size: 60px;
+}
+.projects p{
+	max-width: 300px;
 }
 
-.cards{
-	/* height: 100vh;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-  justify-content: center; */
+.card{
+	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	padding: 65px 10px;
+	display: flex;
+	justify-content: center;
 }
+
 .top{
 	display:flex;
 	margin-bottom: 20px;
@@ -289,9 +294,41 @@ nav > ul li a::before {
 }
 .bottom{
 	display:flex;
+	margin-bottom: 20px;
 	flex-direction: column;
 }
 
 .card-img{
-	max-width:50%;
+	max-width:30%;
+	align-self: center;
+	margin-right: 20px;
+}
+.card-img:hover .overlay{
+	/* color: #1a1a1a;
+	cursor: pointer;
+	transition:.5s; */
+}
+
+#hurdles-card, #airbnb-card{
+	background: #c4c4c4 !important;
+}
+
+#card-title{
+	font-weight: bold !important;
+}
+
+@media screen and (max-width: 500px) {
+   .experience p{
+    width: 85%;
+  }
+	.card-img{
+		max-width: 50% !important;
+	}
+	.card{
+		flex-direction:column !important;
+	}
+	.content{
+		align-self: center;
+		text-align: center;
+	}
 }
