@@ -151,13 +151,17 @@ nav > ul li a::before {
 	}
 
 .title{
+	display: flex;
 	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 .title h1{
 	color: white;
 	font-size: 76px;
 	text-align: center;
 	font-weight: 500;
+	margin-bottom: 0;
 }
 .title p{
 	color: white;
@@ -170,7 +174,6 @@ nav > ul li a::before {
 	font-weight: 300;
 	background-color: transparent;
 	font-size: 27px;
-	/* padding: 11px; */
 }
 button:focus {
 	outline:0;
@@ -259,6 +262,9 @@ button:focus {
 .projects p{
 	max-width: 300px;
 }
+.content button{
+	border: 1px solid #4A4E69;
+}
 
 .card{
 	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
@@ -337,5 +343,12 @@ h3{
 	}
 	.experience{
 		margin-top: 100px;
+	}
+	.title button{
+		color: white;
+		text-align: center;
+		font-weight: 300;
+		background-color: #4A4E69;
+		font-size: 27px;
 	}
 }
