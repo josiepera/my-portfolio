@@ -14,32 +14,12 @@ main {
 	display: inline-block;
 }
 
-/* nav {
-  font-family: 'Orbitron', sans-serif;
-	width: 100%;
-  background: #505050;
-  border-bottom: 2px solid linear-gradient(to right, #B06AB3, #4568DC);
-	box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.7);
-	margin: 0px;
-  position: fixed;
-  top: 0;
-  margin-right: 50px;
-} */
 
-/* nav > ul{
-	margin: 0px;
-	padding: 0px;
-	text-align: center;
-} */
-
-/* nav > ul li{
-	display: inline-block;
-} */
-
-a{
+#menu a{
 	text-decoration: none !important;
+	color: black !important;
 }
-a:visited{
+#menu a:visited{
 	color:black !important;
 }
 
@@ -86,15 +66,12 @@ nav > ul li a::before {
 
 	  cursor: pointer;
 
-	  opacity: 0; /* hide this */
-	  z-index: 2; /* and place it over the hamburger */
+	  opacity: 0;
+	  z-index: 2;
 
 	  -webkit-touch-callout: none;
 	}
 
-	/*
-	 * Just a quick hamburger
-	 */
 	#menuToggle span
 	{
 	  display: block;
@@ -125,10 +102,6 @@ nav > ul li a::before {
 	  transform-origin: 0% 100%;
 	}
 
-	/*
-	 * Transform all the slices of hamburger
-	 * into a crossmark.
-	 */
 	#menuToggle input:checked ~ span
 	{
 	  opacity: 1;
@@ -136,27 +109,18 @@ nav > ul li a::before {
 	  background: #232323;
 	}
 
-	/*
-	 * But let's hide the middle one.
-	 */
 	#menuToggle input:checked ~ span:nth-last-child(3)
 	{
 	  opacity: 0;
 	  transform: rotate(0deg) scale(0.2, 0.2);
 	}
 
-	/*
-	 * Ohyeah and the last one should go the other direction
-	 */
+
 	#menuToggle input:checked ~ span:nth-last-child(2)
 	{
 	  transform: rotate(-45deg) translate(0, -1px);
 	}
 
-	/*
-	 * Make this absolute positioned
-	 * at the top left of the screen
-	 */
 	#menu
 	{
 	  position: absolute;
@@ -168,7 +132,6 @@ nav > ul li a::before {
 	  background: #ededed;
 	  list-style-type: none;
 	  -webkit-font-smoothing: antialiased;
-	  /* to stop flickering of text in safari */
 
 	  transform-origin: 0% 0%;
 	  transform: translate(-100%, 0);
@@ -182,16 +145,15 @@ nav > ul li a::before {
 	  font-size: 22px;
 	}
 
-	/*
-	 * And let's slide it in from the left
-	 */
 	#menuToggle input:checked ~ ul
 	{
 	  transform: none;
 	}
 
+.title{
+	align-items: center;
+}
 .title h1{
-  /* margin-top: 70px; */
 	color: white;
 	font-size: 76px;
 	text-align: center;
@@ -201,6 +163,31 @@ nav > ul li a::before {
 	color: white;
 	font-size: 35px;
 	text-align: center;
+}
+.title button{
+	color: white;
+	text-align: center;
+	font-weight: 300;
+	background-color: transparent;
+	font-size: 27px;
+	/* padding: 11px; */
+}
+button:focus {
+	outline:0;
+}
+.title button:hover{
+	background-color: white;
+	color:black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.title a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 10px 10px 10px;
+}
+.title a:hover{
+	color: black;
 }
 
 .home{
@@ -217,9 +204,6 @@ nav > ul li a::before {
   justify-content: center;
   align-items: center;
 }
-.title{
-
-}
 
 .head{
   height:100vh;
@@ -235,7 +219,6 @@ nav > ul li a::before {
   background-size: cover;
   height: 30vh;
   overflow: hidden;
-  /* opacity: .5; */
 }
 .experience {
 	height: 100vh;
@@ -250,7 +233,7 @@ nav > ul li a::before {
 	display: flex;
 	justify-content: center;
 	font-size: 60px;
-	/* margin-top: 200px; */
+	margin-bottom: 0;
 }
 .experience p{
 	width: 500px;
@@ -259,17 +242,14 @@ nav > ul li a::before {
 }
 
 .projects {
-	/* height: 100vh; */
 	display: flex;
 	flex-direction: column;
-	/* text-align: center; */
 	align-items: center;
 	justify-content: center;
 }
 .projects h1{
 	display: flex;
 	justify-content: center;
-	/* height: 100vh; */
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -304,9 +284,6 @@ nav > ul li a::before {
 	margin-right: 20px;
 }
 .card-img:hover .overlay{
-	/* color: #1a1a1a;
-	cursor: pointer;
-	transition:.5s; */
 }
 
 #hurdles-card, #airbnb-card{
@@ -325,7 +302,13 @@ nav > ul li a::before {
 .profile-pic{
   border-radius: 25px;
 }
-
+.contact{
+  margin-top: 35px;
+}
+h3{
+	font-size: 13px;
+	text-align: center;
+}
 @media screen and (max-width: 500px) {
    .experience p{
     width: 85%;
@@ -339,5 +322,20 @@ nav > ul li a::before {
 	.content{
 		align-self: center;
 		text-align: center;
+	}
+	.social-btn{
+		max-width: 15%;
+	}
+	.experience h1{
+		margin-top: 0;
+		margin-bottom: 45px;
+		font-size: 40px;
+	}
+	.profile-pic{
+		margin-top:20px;
+		max-width: 40%;
+	}
+	.experience{
+		margin-top: 100px;
 	}
 }

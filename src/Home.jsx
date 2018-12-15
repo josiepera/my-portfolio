@@ -11,6 +11,7 @@ class Home extends Component {
           <div className="title">
             <h1>Josie Peralta</h1>
             <p>Web Developer</p>
+            <button><Link to='/portfolio'>Explore Work</Link></button>
           </div>
         </div>
     </div>

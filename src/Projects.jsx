@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './Header';
 import ProjectsCards from './ProjectsCards'
+import Footer from './Footer';
 
 class Projects extends Component {
   render(){
@@ -11,6 +12,7 @@ class Projects extends Component {
           <h1>Portfolio</h1>
           <ProjectsCards/>
         </div>
+        <Footer/>
       </div>
     )
   }
