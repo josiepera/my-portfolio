@@ -22,7 +22,7 @@ class ProjectsCards extends Component {
               <div className="overlay"></div>
               <div className="content">
                 <p id="card-title">Mellow Home</p>
-                <p>App designed by UX and built by Josie Peralta</p>
+                <p>Mobile-friendly Application designed by UX Designers and built by Josie Peralta</p>
                 <a href="https://mellow-home.herokuapp.com/" target="_blank"><button>Go to Mellow Home</button></a>
               </div>
         </div>

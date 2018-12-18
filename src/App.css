@@ -39,6 +39,7 @@ nav > ul li a::before {
 
 	nav{
 	margin-top: -27px;
+	border: 1px solid #d3d3d3 !important;
 	}
 
 	#menuToggle
@@ -80,7 +81,7 @@ nav > ul li a::before {
 	  margin-bottom: 5px;
 	  position: relative;
 
-	  background: #cdcdcd;
+	  background: #4A4E69;
 	  border-radius: 3px;
 
 	  z-index: 1;
@@ -195,7 +196,7 @@ button:focus {
 
 .home{
   font-family: 'Orbitron', sans-serif;
-  background: url('http://numarketing.co.uk/wp-content/uploads/2014/06/Website-Design-Background.png') no-repeat center center fixed;
+  background: url('https://cdn-images-1.medium.com/max/1920/1*ee9Ji2ToUxeYfj3YUQ1xsA.jpeg') no-repeat center center fixed;
    -webkit-background-size: cover;
  -moz-background-size: cover;
  -o-background-size: cover;
@@ -308,12 +309,13 @@ button:focus {
 .profile-pic{
   border-radius: 25px;
 }
-.contact{
+/* .contact{
   margin-top: 35px;
-}
+} */
 h3{
 	font-size: 13px;
 	text-align: center;
+	margin-bottom: 50px;
 }
 @media screen and (max-width: 500px) {
    .experience p{
@@ -351,4 +353,11 @@ h3{
 		background-color: #4A4E69;
 		font-size: 27px;
 	}
+}
+
+@media screen and (max-width:370px){
+	h3{
+		margin-top:100px;
+	}
+
 }
