@@ -44,7 +44,7 @@ class ProjectsCards extends Component {
               <div className="content">
                 <p id="card-title">Who Reps Me</p>
                 <p>Application which users can find who the representatives of their respective states are and their social media profiles.</p>
-                <a href="unused-geese.surge.sh" target="_blank"><button>Check it out!</button></a>
+                <a href="https://unused-geese.surge.sh" target="_blank"><button>Check it out!</button></a>
               </div>
           </div>
 
