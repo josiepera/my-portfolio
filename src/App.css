@@ -18,7 +18,7 @@ main {
 
 header{
 	position: relative;
-	background: #505050;
+	background: #5f5f5f;
 	display: flex;
 	position: fixed;
 	z-index: 500;
@@ -289,6 +289,7 @@ button:focus {
 
 .card{
 	clip-path: polygon(0 0%, 100% 4%, 100% 96%, 0% 100%);
+	/* clip-path:polygon(0 0%, 91% 7%, 100% 90%, 16% 99%; */
 	padding: 65px 10px;
 	display: flex;
 	justify-content: center;
@@ -329,6 +330,8 @@ button:focus {
 .profile-pic{
   border-radius: 25px;
 	width:30%;
+	/* border-radius: 365px;
+	width: 15%; */
 }
 /* .contact{
   margin-top: 35px;
@@ -376,7 +379,30 @@ h3{
 		font-size: 27px;
 	}
 }
+.container-arrow{
+	margin-top: -20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:white;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	bottom:0;left:0;
+	z-index: 10;
+	width:100%;
+	padding-bottom: 15px;
+	cursor: pointer;
+	font-size: 12px;
+}
+#arrow p{
+	margin-top:0;
+}
 
+.container-arrow span{  display: inline-block; font-size: 80px;	 animation: .7s down  infinite alternate; -webkit-animation: .7s down infinite alternate; }
+
+@keyframes down{ 0%{transform:translateY(0px)} 100%{transform:translateY(20px)} }
+@-webkit-keyframes down{ 0%{-webkit-transform:translateY(0px)} 100%{-webkit-transform:translateY(20px)} }
 @media screen and (max-width:370px){
 	h3{
 		margin-top:100px;
