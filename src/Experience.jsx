@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Footer from './Footer';
+
 
 class Experience extends Component {
   render(){
@@ -17,7 +17,7 @@ class Experience extends Component {
           <a href="mailto:jperalta.henri@gmail.com" target="_blank"><img className="social-btn" id="email" src="https://i.imgur.com/qsoAXVB.png" alt="email"/></a>
         </div>
       </div>
-      <Footer/>
+
     </>
     )
   }

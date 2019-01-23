@@ -17,13 +17,14 @@ class ProjectsCards extends Component {
         </div>
 
         <div className="card" id="mellow-card">
-            <img className="card-img" src="https://res.cloudinary.com/jperalta/image/upload/v1543978743/Screen_Shot_2018-12-04_at_9.58.28_PM.png" alt="Card image cap" />
+
               <div className="overlay"></div>
               <div className="content">
                 <p id="card-title">Mellow Home</p>
                 <p>Mobile-friendly Application designed by UX Designers and built by Josie Peralta</p>
                 <a href="https://mellow-home.herokuapp.com/" target="_blank"><button>Go to Mellow Home</button></a>
               </div>
+            <img className="card-img" src="https://res.cloudinary.com/jperalta/image/upload/v1543978743/Screen_Shot_2018-12-04_at_9.58.28_PM.png" alt="Card image cap" />
         </div>
 
 
@@ -40,12 +41,13 @@ class ProjectsCards extends Component {
               </div>
           </div>
           <div className="card" id="hurdles-card">
-              <img className="card-img" src="https://res.cloudinary.com/jperalta/image/upload/v1543948305/Screen_Shot_2018-12-04_at_1.31.21_PM.png" alt="Card image cap" />
+
                 <div className="content">
                   <p id="card-title">Hurdles</p>
                   <p>Game written in Vanilla JS where the user has to clear hurdles by pressing the up keyboard up</p>
                   <a href="https://josiepera.github.io/hurdles/" target="_blank"><button>Go to Game!</button></a>
                 </div>
+              <img className="card-img" src="https://res.cloudinary.com/jperalta/image/upload/v1543948305/Screen_Shot_2018-12-04_at_1.31.21_PM.png" alt="Card image cap" />
           </div>
 
 
