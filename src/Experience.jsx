@@ -12,7 +12,7 @@ class Experience extends Component {
   render(){
     return(
     <>
-      <Header/>
+    
 
       <div className="exp-page">
         <h1>About Me</h1>

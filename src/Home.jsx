@@ -5,6 +5,7 @@ import Projects from './Projects';
 import Icon from '@material-ui/core/Icon'
 import ScrollIntoView from 'react-scroll-into-view';
 import Experience from './Experience';
+import Contact from './Contact';
 
 //<button><Link to='/portfolio'>Explore Work</Link></button>
 
@@ -34,6 +35,7 @@ class Home extends Component {
         <div class="projects"></div>
           <Projects/>
 
+        <Contact/>
 
     </div>
 
