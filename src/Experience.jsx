@@ -12,12 +12,13 @@ class Experience extends Component {
   render(){
     return(
     <>
-    
+
 
       <div className="exp-page">
+      <div className="experience">
         <h1>About Me</h1>
         <div className="line"></div>
-      <div className="experience">
+
 
         <img className="profile-pic" src="https://res.cloudinary.com/jperalta/image/upload/v1548063345/LRG__DSC5941.jpg" alt="mug"/>
         <div className="scrollto"></div>

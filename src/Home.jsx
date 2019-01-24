@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
+import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import Projects from './Projects';
 import Icon from '@material-ui/core/Icon'
@@ -35,7 +36,7 @@ class Home extends Component {
         <div class="projects"></div>
           <Projects/>
 
-        <Contact/>
+        <Footer/>
 
     </div>
 
