@@ -403,8 +403,9 @@ h3{
 	margin-left: 5px;
 }
 .react-logo{
-	width:83px;
-
+	width: 123px;
+	margin-right:5px;
+	margin-left: 5px;
 }
 .node-logo{
 	width:100px;

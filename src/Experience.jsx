@@ -31,7 +31,7 @@ class Experience extends Component {
         <div>
           <img className="css3-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/2000px-CSS3_logo_and_wordmark.svg.png" alt="css3"/>
           <img className="html-logo" src="https://i.imgur.com/yaljWaU.png" alt="html5"/>
-          <img className="react-logo" src="https://i.imgur.com/JOcbsmm.png" alt="react"/>
+          <img className="react-logo" src="https://www.proximitycr.com/wp-content/uploads/2017/05/React-logo.png" alt="react"/>
           <img className="node-logo" src="https://i.imgur.com/SrJsmDN.png" alt="node"/>
        </div>
        <div>
