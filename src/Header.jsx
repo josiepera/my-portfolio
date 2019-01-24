@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import ScrollIntoView from 'react-scroll-into-view';
 
 
 function Header() {
@@ -12,9 +13,12 @@ function Header() {
           <span></span>
           <span></span>
           <ul id="menu">
-            <li><Link to='/'>Home</Link></li>
-            <li><Link to='/portfolio'>Portfolio</Link></li>
-            <li><Link to='/summary'>Summary</Link></li>
+          <div className="menulist">
+            <li><ScrollIntoView selector=".home">Home</ScrollIntoView></li>
+            <li><ScrollIntoView selector=".scrollto">About Me</ScrollIntoView></li>
+            <li><ScrollIntoView selector="#rep-card">Portfolio</ScrollIntoView></li>
+            <li><ScrollIntoView selector=".footer">Contact Me</ScrollIntoView></li>
+          </div>
           </ul>
         </div>
         </nav>
