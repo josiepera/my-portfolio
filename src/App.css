@@ -249,7 +249,7 @@ button:focus {
   overflow: hidden;
 }
 .experience {
-	padding-top: 100px;
+	/* padding-top: 100px; */
 	height: 100%;
 	display: flex;
 	flex-direction: column;
@@ -269,7 +269,7 @@ button:focus {
 	margin-top: 0;
 }
 .experience p{
-	width: 500px;
+	width: 920px;
 	text-align: center;
 	line-height: 1.8;
 }
@@ -281,6 +281,7 @@ button:focus {
 	justify-content: center;
 }
 .projects h1{
+	margin-bottom: 0;
 	display: flex;
 	justify-content: center;
   flex-direction: column;
@@ -368,9 +369,92 @@ h3{
 	font-size: 440px;
 	color:white;
 }
+.skills{
+	/* width: 220px; */
 
+}
+
+.skills-logo{
+	width:5%;
+	margin-right:5px;
+	margin-left: 5px;
+}
+.css3-logo{
+	width: 50px;
+	margin-right:5px;
+	margin-left: 5px;
+}
+.html-logo{
+	width:71px;
+	margin-right:5px;
+	margin-left: 5px;
+}
+.react-logo{
+	width:83px;
+
+}
+.node-logo{
+	width:100px;
+	margin-right:5px;
+	margin-left: 5px;
+}
+.express-logo{
+	width:140px;
+	margin-right:5px;
+	margin-left: 5px;
+}
+.postres-logo{
+width:150px;
+margin-right:5px;
+margin-left: 5px;
+}
+.jq-logo{
+width:65px;
+margin-right:5px;
+margin-left: 5px;
+}
+
+.exp-page{
+	padding-top: 50px;
+	padding-bottom:50px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: #2e4058;
+	background-color: #c4c4c4;
+
+
+	border-bottom: 5px solid #2e4058;
+	border-top: 5px solid white;
+}
+
+.exp-page .line{
+	width: 8%;
+}
+
+.line{
+	border-top: 1px solid #2e4058;
+	width: 15%;
+	margin:auto;
+	margin-bottom: 25px;
+}
+h2{
+	margin-bottom:0;
+}
+h1{
+	margin-bottom:0;
+}
 
 @media screen and (max-width: 500px) {
+	h1{
+		margin-bottom:5px;
+	}
+	.exp-page{
+		flex-direction: column;
+	}
 	#mellow-card, #hurdles-card{
 		flex-direction: column-reverse !important;
 	}
@@ -398,11 +482,11 @@ h3{
 		margin-top: 0;
 	}
 	.profile-pic{
-		margin-top:20px;
+		/* margin-top:20px; */
 		max-width: 40%;
 	}
 	.experience{
-		padding-top: 100px;
+		/* padding-top: 100px; */
 	}
 	.title button{
 		color: white;

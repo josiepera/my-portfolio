@@ -10,6 +10,7 @@ class Projects extends Component {
         <Header />
         <div className="projects">
           <h1>Portfolio</h1>
+          <div className="line"></div>
           <ProjectsCards/>
         </div>
         <Footer/>

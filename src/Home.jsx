@@ -20,7 +20,7 @@ class Home extends Component {
             <p>Web Developer</p>
           </div>
 
-          <ScrollIntoView selector=".experience h1">
+          <ScrollIntoView selector=".scrollto">
             <a className="container-arrow scroll-to">
                 <span id="arrow">
                   <p>⌄</p>
