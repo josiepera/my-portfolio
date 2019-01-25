@@ -22,13 +22,15 @@ class Home extends Component {
             <p>Web Developer</p>
           </div>
 
-          <ScrollIntoView selector=".scrollto">
-            <a className="container-arrow scroll-to">
-                <span id="arrow">
-                  <p>⌄</p>
-                </span>
-            </a>
-          </ScrollIntoView>
+          <div>
+            <ScrollIntoView selector=".scrollto">
+              <a className="container-arrow scroll-to">
+                  <span id="arrow">
+                    <p>⌄</p>
+                  </span>
+              </a>
+            </ScrollIntoView>
+          </div>
 
         </div>
         <Experience/>

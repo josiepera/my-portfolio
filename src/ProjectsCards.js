@@ -7,16 +7,18 @@ class ProjectsCards extends Component {
     <>
       <div className="cards">
         <div className="top">
-        <div className="card" id="rep-card">
-          <img className="card-img" src="https://i.imgur.com/pKYIAA3.png" alt="Card image cap" />
+        <div className="card" id="card-one">
+
+          <img className="card-img" src="https://i.imgur.com/P1ffXMk.png" alt="Card image cap" />
             <div className="content">
-              <p id="card-title">Who Reps Me</p>
-              <p>Application which users can find who the representatives of their respective states are and their social media profiles.</p>
-              <a href="https://unused-geese.surge.sh" target="_blank"><button>Check it out!</button></a>
+              <p id="card-title">La Super Marketa</p>
+              <p>A website I designed and built for a Super Market in Connecticut</p>
+              <a href="https://black-chance.surge.sh" target="_blank"><button>Check it out!</button></a>
             </div>
+
         </div>
 
-        <div className="card" id="mellow-card">
+        <div className="card" id="card-two">
 
               <div className="overlay"></div>
               <div className="content">
@@ -31,16 +33,17 @@ class ProjectsCards extends Component {
         </div>
 
         <div className="bottom">
+          <div className="card" id="card-three">
 
-          <div className="card" id="airbnb-card">
-            <img className="card-img" src="https://i.imgur.com/wLuhj2B.png" alt="Card image cap" />
-              <div className="content">
-                <p id="card-title">AirBnB</p>
-                <p>Recreated the AirBnB with 3 other developers. For technologies we used React, Reactstrap, PostgreSQL, and Node.js</p>
-                <a href="https://mad-donkey.herokuapp.com/" target="_blank"><button>Start Booking!</button></a>
-              </div>
+          <img className="card-img" src="https://i.imgur.com/pKYIAA3.png" alt="Card image cap" />
+            <div className="content">
+              <p id="card-title">Who Reps Me</p>
+              <p>Application which users can find who the representatives of their respective states are and their social media profiles.</p>
+              <a href="https://unused-geese.surge.sh" target="_blank"><button>Check it out!</button></a>
+            </div>
+
           </div>
-          <div className="card" id="hurdles-card">
+          <div className="card" id="card-four">
 
                 <div className="content">
                   <p id="card-title">Hurdles</p>
