@@ -11,7 +11,7 @@ class ProjectsCards extends Component {
 
           <img className="card-img" src="https://i.imgur.com/P1ffXMk.png" alt="Card image cap" />
             <div className="content">
-              <p id="card-title">La Super Marketa</p>
+              <p id="card-title">La Super Marqueta</p>
               <p>A website I designed and built for a Super Market in Connecticut</p>
               <a href="https://black-chance.surge.sh" target="_blank"><button>Check it out!</button></a>
             </div>

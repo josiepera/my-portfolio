@@ -9,11 +9,11 @@ class Projects extends Component {
       <div>
 
         <div className="projects">
-          <h1>Portfolio</h1>
+          <h1>Projects</h1>
           <div className="line"></div>
           <ProjectsCards/>
         </div>
-    
+
       </div>
     )
   }
