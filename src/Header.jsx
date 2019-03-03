@@ -16,7 +16,7 @@ function Header() {
           <div className="menulist">
             <li><ScrollIntoView selector=".home">Home</ScrollIntoView></li>
             <li><ScrollIntoView selector=".scrollto">About Me</ScrollIntoView></li>
-            <li><ScrollIntoView selector="#rep-card">Portfolio</ScrollIntoView></li>
+            <li><ScrollIntoView selector="#rep-card">Projects</ScrollIntoView></li>
             <li><ScrollIntoView selector=".footer">Contact Me</ScrollIntoView></li>
           </div>
           </ul>
