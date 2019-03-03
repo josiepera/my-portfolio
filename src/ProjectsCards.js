@@ -27,6 +27,7 @@ class ProjectsCards extends Component {
               <div className="content">
                 <p id="card-title">Mellow Home</p>
                 <p>Mobile-friendly Application designed by UX Designers and built by Josie Peralta</p>
+                <p>Technologies used: HTML5, CSS3, JavaScript, React, NodeJS, Express</p>
                 <a href="https://mellow-home.herokuapp.com/" target="_blank"><button>Go to Mellow Home</button></a>
                 <a href="https://github.com/josiepera/mellow" target="_blank"><button>Github</button></a>
               </div>
@@ -43,6 +44,7 @@ class ProjectsCards extends Component {
             <div className="content">
               <p id="card-title">Who Reps Me</p>
               <p>Application which users can find who the representatives of their respective states are and their social media profiles.</p>
+              <p>Technologies used: HTML5, CSS3, JavaScript, React</p>
               <a href="https://unused-geese.surge.sh" target="_blank"><button>Check it out!</button></a>
               <a href="https://github.com/josiepera/mellow" target="_blank"><button>Github</button></a>
             </div>
@@ -53,6 +55,7 @@ class ProjectsCards extends Component {
                 <div className="content">
                   <p id="card-title">Hurdles</p>
                   <p>Game written in Vanilla JS where the user has to clear hurdles by pressing the up keyboard up</p>
+                  <p>Technologies used: HTML5, CSS3, JavaScript</p>
                   <a href="https://josiepera.github.io/hurdles/" target="_blank"><button>Go to Game!</button></a>
                   <a href="https://github.com/josiepera/hurdles" target="_blank"><button>Github</button></a>
                 </div>
