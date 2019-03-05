@@ -7,17 +7,11 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Experience from './Experience';
 import Projects from './Projects';
 import { AnimatedSwitch } from 'react-router-transition';
-import ReactGA from 'react-ga';
-
 
 
 class App extends Component {
 
   render() {
-    function initializeReactGA() {
-      ReactGA.initialize('UA-135632078-1');
-      ReactGA.pageview('/hompage');
-  }
     return (
       <Router>
           <Switch>

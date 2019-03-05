@@ -7,10 +7,19 @@ import Icon from '@material-ui/core/Icon'
 import ScrollIntoView from 'react-scroll-into-view';
 import Experience from './Experience';
 import Contact from './Contact';
+import ReactGA from 'react-ga';
 
-//<button><Link to='/portfolio'>Explore Work</Link></button>
+
+export const initializeReactGA = () => {
+  console.log('GA Init')
+  ReactGA.initialize('UA-135632078-1');
+
+}
 
 class Home extends Component {
+  componentDidMount(){
+    initializeReactGA()
+  }
 
   render() {
     return(
