@@ -35,7 +35,7 @@ class Home extends Component {
         </div>
         <Experience/>
 
-        <div class="projects"></div>
+        <div className="projects"></div>
           <Projects/>
 
         <Footer/>
