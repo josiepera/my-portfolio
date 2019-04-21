@@ -299,7 +299,7 @@ button:focus {
   flex-direction: column;
   text-align: center;
   align-items: center;
-	margin-top: 70px;
+	padding-top:70px;
 	font-size: 60px;
 }
 .projects p{
@@ -433,7 +433,7 @@ margin-left: 5px;
 }
 
 .exp-page{
-	padding-top: 50px;
+	padding-top: 70px;
 	padding-bottom:50px;
 	height: 100%;
 	display: flex;

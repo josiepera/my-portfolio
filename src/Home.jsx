@@ -36,7 +36,7 @@ class Home extends Component {
           </div>
 
           <div>
-            <ScrollIntoView selector=".scrollto">
+            <ScrollIntoView selector=".exp-page">
               <a className="container-arrow scroll-to">
                   <span id="arrow">
                     <p>⌄</p>
